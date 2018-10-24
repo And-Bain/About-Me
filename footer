@@ -1,0 +1,18 @@
+ <footer>
+       <div class="container">
+           <div class="column footer-left">
+               <h4 class="footer-name">links</h4>
+               <p class="footer-links">
+
+                   <a href="About.html">About</a>
+                   <br/>
+                   <a href="contact.html">contact</a>
+               </p>
+
+           </div>
+           <div class="column footer-right">
+               <img src="crest.png" alt="crest" width="100 px">
+               
+           </div>
+       </div>
+   </footer>

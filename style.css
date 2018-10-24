@@ -1,0 +1,87 @@
+body {
+    color: #9CFDFF;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(sky.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.kilt {
+    
+    position: absolute;
+    left: 750px;
+    top: 230px;
+}
+.guy {
+    position: absolute;
+    left: 100px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header{
+    background-image: linear-gradient(#287E7F, #7DCBCC, #9CFDFF);
+    height: 150px;
+    line-height: 150px;
+}
+header a{
+    color: #B2724A;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header-title { 
+    display: block;
+    float: right;
+    font-weight: bold;
+}
+#header-nav{
+    display: inline;
+    padding-left: 0px;
+}
+#header-nav li{ 
+    display: inline;
+    padding-left: 20px;
+}
+#header a/:hover{
+    color: #B2724A;
+    cursor: pointer;
+}
+footer {
+    background-image: linear-gradient(#9CFDFF, #7DCBCC,#287E7F );
+    position: absolute;
+    width: 93.4%;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+    
+}
+footer .footer-left{
+    width: 40%;
+}
+footer .footer-left, footer .footer-right{
+    display: inline-block;
+    vertical-align: center;
+}
+footer .footer-links {
+    color:#B2724A;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+footer .footer-links a {
+    text-decoration: none;
+    color: inherit;
+}
+footer .footer-name{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+footer .footer-right{
+    width: 35px;
+}
+footer .footer-right p{
+    display: inline-block;
+    color: #B2724A;
+    vertical-align: middle;
+    margin: 0;
+}
